@@ -1,0 +1,20 @@
+= Ammitto Schemas
+
+Canonical JSON Schema definitions for the Ammitto sanctions data model.
+
+== Overview
+
+This repository holds the versioned schema documents that describe the
+harmonized JSON-LD representation used across all `ammitto/data-*`
+repositories. Consumers (the `ammitto` gem, the website, and downstream
+integrations) reference these schemas to validate entity, entry, and
+ontology documents.
+
+== Related repositories
+
+* link:https://github.com/ammitto/ammitto[ammitto/ammitto] — Ruby gem that
+  produces harmonized data.
+* link:https://github.com/ammitto/ammitto.github.io[ammitto/ammitto.github.io] —
+  public website and API surface.
+* link:https://github.com/ammitto/data[ammitto/data] — aggregated, harmonized
+  dataset.
